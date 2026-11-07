@@ -30,3 +30,7 @@ HELP.md
 
 ### Mac ###
 **/.DS_Store
+
+.idea/
+*.iml
+logs/
