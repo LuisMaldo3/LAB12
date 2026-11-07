@@ -27,6 +27,6 @@ public class Specialty {
 
 	@ManyToMany(mappedBy = "specialties", fetch = FetchType.LAZY)
 	@ToString.Exclude
-	//@EqualsAndHashCode.Exclude
+	@EqualsAndHashCode.Exclude
 	private Set<Vet> vets;
 }

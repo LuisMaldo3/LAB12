@@ -32,6 +32,8 @@ public class Vet {
 			joinColumns = @JoinColumn(name = "vet_id"),
 			inverseJoinColumns = @JoinColumn(name = "specialty_id")
 	)
+	@lombok.EqualsAndHashCode.Exclude
+	@lombok.ToString.Exclude
 	private Set<Specialty> specialties;
 
 }
